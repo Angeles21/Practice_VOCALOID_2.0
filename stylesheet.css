@@ -207,6 +207,24 @@ figcaption {
 	padding: 2rem;
 	cursor: pointer;
 }
+/** THIS IS THE FOOTER SECTION **/
+.txt-link {
+	font-size: 1.5rem;
+	color: rgb(59, 57, 58);
+	font-weight: bold;
+}
+.links {
+	font-size: 1rem;
+	text-align: left;
+	text-decoration: none;
+}
+a:hover,
+a:visited,
+a:link,
+a:active {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.685);
+}
 /** BUTTON INDEX **/
 .btn {
 	text-transform: uppercase;
