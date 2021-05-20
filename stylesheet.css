@@ -257,7 +257,9 @@ a:active {
 	border-color: rgb(242, 45, 140);
 }
 /** TEXT INDEX **/
-
+.txt-main {
+	font-size: 6rem;
+}
 .skin {
 	font-size: 15px;
 	font-style: italic;
@@ -285,7 +287,16 @@ h4 {
 }
 
 /** MEDIA QUERIES **/
+@media (max-width: 900px) {
+	.txt-main {
+		font-size: 4rem;
+	}
+}
+
 @media (max-width: 400px) {
+	.txt-main {
+		font-size: 3rem;
+	}
 	.c-label {
 		font-size: 0.7rem;
 	}
